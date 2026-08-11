@@ -1,0 +1,107 @@
+/*
+Style.css
+*/
+body {
+    background: url(../imagens/capa.png),
+        url(../imagens/ruido.png),
+        linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* ===== Navbar ===== */
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #8bf0e1;
+}
+
+/* ===== Buttons ===== */
+.btn-custom {
+    color: white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-purple {
+    background-color: #7c25f8;
+}
+
+.btn-purple:hover {
+    background-color: #6707e3;
+    color: white;
+}
+
+.btn-white {
+    border: 2px solid white;
+}
+
+.btn-white:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ===== Banner ===== */
+h1.highlight {
+    font-size: clamp(2rem, 10vw, 6rem);
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+/* ===== Section Services ===== */
+#services h2,
+#services h3 {
+    color: #6f42c1;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+#services h2 {
+    margin-bottom: 2rem;
+}
+
+#services h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+#services p {
+    color: #333;
+    font-weight: 400;
+    line-height: 1.6;
+    max-width: 90%;
+    margin-bottom: 1rem;
+}
+
+/* ===== Section Features ===== */
+#features {
+    color: white;
+}
+
+#features h2 {
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+#features h5 {
+    color: #9bf0e1;
+    font-weight: 300;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+#features p {
+    font-weight: 400;
+    line-height: 1.6;
+    max-width: 90%;
+}
+
+.rotate {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
