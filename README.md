@@ -6,9 +6,9 @@ A Spotify landing page clone developed as a study project to practice HTML, CSS 
 
 Fictitious music streaming website inspired by **Spotify**, featuring a modern layout with a purple gradient background, interactive carousel, styled sections and organized file structure. Built with Bootstrap for responsiveness combined with custom CSS.
 
-´´´
-## 📁 Project structure
 
+## 📁 Project structure
+´´´
 spotify/ ├── css/ │ └── style.css ├── imagens/ │ └── (project images) ├── js/ │ └── script.js └── index.html
 
 ´´´
