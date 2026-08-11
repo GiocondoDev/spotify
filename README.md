@@ -8,10 +8,17 @@ Fictitious music streaming website inspired by **Spotify**, featuring a modern l
 
 
 ## 📁 Project structure
-´´´
-spotify/ ├── css/ │ └── style.css ├── imagens/ │ └── (project images) ├── js/ │ └── script.js └── index.html
 
-´´´
+```
+spotify/
+├── css/
+│   └── style.css
+├── imagens/
+│   └── (project images)
+├── js/
+│   └── script.js
+└── index.html
+```
 
 ## 🛠️ Technology
 
